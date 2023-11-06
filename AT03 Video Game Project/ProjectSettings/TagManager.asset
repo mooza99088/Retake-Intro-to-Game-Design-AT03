@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ghost
+  - Pellet
+  - Power Pellet
+  - Bonus Item
   layers:
   - Default
   - TransparentFX
