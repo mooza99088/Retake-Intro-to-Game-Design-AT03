@@ -346,7 +346,7 @@ public class GhostState_Respawn : GhostState
             Debug.LogError($"Ghost: {Instance.gameObject.name} has no Respawn Material assigned!");
         }
         target = GameManager.Instance.GhostSpawnBounds.center;
-        Instance.Agent.speed = Instance.Agent.speed * 2;
+        Instance.Agent.speed = Instance.Agent.speed * 5;
         Instance.Agent.SetDestination(target);
     }
 
@@ -367,6 +367,6 @@ public class GhostState_Respawn : GhostState
 
     public override void OnExit()
     {
-        Instance.Agent.speed = Instance.Agent.speed / 2;
+        Instance.Agent.speed = Instance.Agent.speed / 5;
     }
 }
