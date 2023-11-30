@@ -6,6 +6,7 @@ public class GameHUD : MonoBehaviour
 {
 
     [SerializeField] private GameObject overviewMap;
+    [SerializeField] private GameObject endMenu;
 
     public bool CursorEnabled
     {

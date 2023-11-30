@@ -837,7 +837,7 @@ MonoBehaviour:
   - {fileID: 1447470505}
   - {fileID: 931038132}
   - {fileID: 450481530}
-  deathClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 5f3a4de69e83e1c4fa0edf2700302c5f, type: 3}
 --- !u!82 &16781252
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2291,6 +2291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overviewMap: {fileID: 1698689428}
+  endMenu: {fileID: 0}
 --- !u!4 &73423141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469248, guid: 3845c7234a0ed4843ba4e38e2404f54d, type: 3}
@@ -7092,7 +7093,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -9663,8 +9664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 148.28067, y: 1.0000067}
-  m_SizeDelta: {x: 127.4061, y: 143.9301}
+  m_AnchoredPosition: {x: 164.51591, y: 3.387497}
+  m_SizeDelta: {x: 133.1361, y: 139.155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &450481532
 MonoBehaviour:
@@ -17928,7 +17929,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -18311,8 +18312,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3596344, y: 1.0000076}
-  m_SizeDelta: {x: 127.4061, y: 143.9301}
+  m_AnchoredPosition: {x: 9.190506, y: 3.387497}
+  m_SizeDelta: {x: 133.1361, y: 139.155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &931038134
 MonoBehaviour:
@@ -19608,8 +19609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1642.1399, y: -33}
-  m_SizeDelta: {x: 447.8601, y: 161.3101}
+  m_AnchoredPosition: {x: 1642.1399, y: -42.55011}
+  m_SizeDelta: {x: 466.9601, y: 151.76}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1005919837
 MonoBehaviour:
@@ -19624,7 +19625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -23245,7 +23246,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -28541,8 +28542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149, y: 1}
-  m_SizeDelta: {x: 127.4061, y: 143.9301}
+  m_AnchoredPosition: {x: -146.135, y: 3.387497}
+  m_SizeDelta: {x: 133.1361, y: 139.155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447470507
 MonoBehaviour:
@@ -29972,10 +29973,10 @@ MonoBehaviour:
     m_Center: {x: 12, y: 2, z: -20}
     m_Extent: {x: 3, y: 2, z: 3}
   endPanel: {fileID: 1054142291}
-  pelletClip: {fileID: 0}
-  powerPelletClip: {fileID: 0}
-  bonusItemClip: {fileID: 0}
-  eatGhostClip: {fileID: 0}
+  pelletClip: {fileID: 8300000, guid: 7e3457e12a25adf4a87980927f2fbb22, type: 3}
+  powerPelletClip: {fileID: 8300000, guid: 162184220fd9cc244999107a2a5593a0, type: 3}
+  bonusItemClip: {fileID: 8300000, guid: 1a7b65c23ffb0a8478a75837a488fadd, type: 3}
+  eatGhostClip: {fileID: 8300000, guid: 6ae93a63eb208cd4f8218b379d0852a8, type: 3}
 --- !u!4 &1547401475
 Transform:
   m_ObjectHideFlags: 0
@@ -33508,7 +33509,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
